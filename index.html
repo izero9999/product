@@ -1,22 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Multi-language Product Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OiPay - Giải pháp thanh toán ngân hàng</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="lang-switch">
-    <button onclick="setLanguage('en')">English</button>
-    <button onclick="setLanguage('vi')">Tiếng Việt</button>
-  </div>
+  <header>
+    <div class="container">
+      <h1>OiPay</h1>
+      <p>Giải pháp quản lý thanh toán thông minh, an toàn và nhanh chóng qua ngân hàng</p>
+    </div>
+  </header>
 
-  <div class="container">
-    <h1 data-lang="title">Welcome to Our Product</h1>
-    <p data-lang="description">This product will change the way you work!</p>
-    <button data-lang="buy-button">Buy Now</button>
-  </div>
+  <section class="hero">
+    <div class="container">
+      <img src="https://via.placeholder.com/600x300" alt="OiPay Screenshot">
+      <h2>Quản lý dòng tiền hiệu quả</h2>
+      <p>OiPay giúp doanh nghiệp tự động hóa thanh toán, đối soát, và báo cáo qua nhiều ngân hàng khác nhau – tất cả chỉ trong một nền tảng duy nhất.</p>
+      <a href="#lien-he" class="btn">Liên hệ ngay</a>
+    </div>
+  </section>
 
-  <script src="lang.js"></script>
+  <section class="features">
+    <div class="container">
+      <h2>Tính năng nổi bật</h2>
+      <ul>
+        <li>🌐 Kết nối đa ngân hàng chỉ với 1 lần tích hợp</li>
+        <li>📊 Đối soát giao dịch theo thời gian thực</li>
+        <li>🔐 Bảo mật chuẩn ngân hàng</li>
+        <li>📱 Giao diện thân thiện, hỗ trợ API</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="lien-he">
+    <div class="container">
+      <h2>Liên hệ tư vấn</h2>
+      <p>Đội ngũ OiPay sẵn sàng hỗ trợ bạn tích hợp hệ thống thanh toán ngân hàng chỉ trong vài ngày.</p>
+      <a href="mailto:oipay.net@gmail.com" class="btn">Gửi Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>©2025 OiPay. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
